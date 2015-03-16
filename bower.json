@@ -1,0 +1,25 @@
+{
+  "name": "angular-busyclick",
+  "version": "0.1.0",
+  "authors": [
+    "Marty Kane <marty.kane@gmail.com>"
+  ],
+  "description": "Quickly add busy state to Angular components using promises.",
+  "main": "src/busyClick.directive.js",
+  "keywords": [
+    "angular",
+    "busy",
+    "click",
+    "promise",
+    "directive"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mekane/angular-busyclick",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
