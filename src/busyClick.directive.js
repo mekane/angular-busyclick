@@ -34,7 +34,7 @@ angular.module('busyClick',[])
             function startBusy( promise ){
                 busyClickPromise = promise;
                 element.addClass('busy');
-                busyClickPromise.then(stopBusy);
+                busyClickPromise.finally(stopBusy);
             }
 
             function stopBusy(){
