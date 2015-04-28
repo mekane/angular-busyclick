@@ -20,7 +20,7 @@ angular.module('busyClick',[])
                 
                 scope.$apply(function() {
                     resultsPromise = directiveClickFunction(scope, {$event:event});
-                    if ( resultsPromise && resultsPromise.then ){
+                    if ( resultsPromise && resultsPromise.finally ){
                         startBusy(resultsPromise);
                     }
                 });
